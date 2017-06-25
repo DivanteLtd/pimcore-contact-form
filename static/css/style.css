@@ -1,0 +1,70 @@
+.centred {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contact-form .form-group {
+    position: relative;
+}
+
+
+.form-area {
+    background-color: #FAFAFA;
+    padding: 10px 40px 60px;
+    margin: 10px 0px 60px;
+    border: 1px solid GREY;
+}
+
+.contact-form i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -44px;
+    left: 10px;
+    color: #fff;
+}
+
+.asterix {
+    position: absolute;
+    color: red;
+    float: left;
+    margin: 25px 5px;
+    right: 0;
+    top: 0;
+}
+
+.custom-alert {
+    font-size: 11px;
+    padding: 7px;
+    display: none;
+}
+
+.editmode-label{
+    background: #dadada; width: 20%; padding: 3px;
+}
+
+.generic-content{
+    border: 2px #8a8583 dashed; padding-bottom: 10px;
+}
+
+.editmode-input{
+    padding: 3px;
+}
+
+.editmode-table{
+    border: 1px solid #3e3e3e; width: 90%;
+}
+
+.error-alert{
+    border: 1px solid #F00;
+}
+
+.correct-alert{
+    border: 1px solid #080;
+}

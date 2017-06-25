@@ -1,16 +1,12 @@
 {
-    "name": "divante/pimcore-contact-form",
-    "type": "pimcore-plugin",
-    "require": {
-        "php": ">=5.6",
-        "pimcore/installer-plugin": ">=1"
-    },
-    "license": "GPL-3.0+",
-    "authors": [
-        {
-            "name": "DivanteLtd",
-            "email":  "pimcore@divante.pl",
-            "homepage": "http://divante.co"
-        }
-    ]
+  "name": "Divante/ContactForm",
+  "type": "pimcore-plugin",
+  "require": {
+    "pimcore/installer-plugin": ">=1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ContactForm\\": "lib"
+    }
+  }
 }
